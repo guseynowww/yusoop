@@ -1,11 +1,6 @@
 "use strict";
 
-import {MDCTabBar} from '@material/tab-bar';
-
 window.addEventListener('DOMContentLoaded', function() {
-    
-
-    const tabBar = new MDCTabBar(document.querySelector('.mdc-tab-bar'));
 
     // Slider
 

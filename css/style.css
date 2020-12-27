@@ -114,7 +114,7 @@ header {
     margin: 0 auto;
   }
   .promo_delivery_content_descr {
-    color: #black;
+    color: black;
     font-size: 16px;
     font-weight: 300;
     line-height: 22px;
@@ -142,7 +142,7 @@ header {
     transition: 0.5s all;
   }
   .advantage {
-    min-height: 590px;
+    min-height: 390px;
     background-color: #f3f3f3;
   }
   .advantage_block {
@@ -160,13 +160,13 @@ header {
     margin-top: 13px;
   }
   .advantage_head {
-    color: #black;
+    color: black;
     font-size: 16px;
     font-weight: 600;
   }
   .advantage_descr {
     margin-top: 5px;
-    color: #black;
+    color: black;
     font-family: Roboto;
     font-size: 20px;
     font-weight: 300;
@@ -467,7 +467,7 @@ header {
     margin-top: 22px;
   }
   .schema {
-    height: 454px;
+    height: 400px;
     background-color: #f3f3f3;
   }
   .schema .title {
@@ -476,7 +476,7 @@ header {
   .schema_block {
     display: flex;
     flex-wrap: wrap;
-    justify-content: center;
+    justify-content: space-between;
     margin-top: 33px;
   }
   .schema_item {
@@ -492,14 +492,14 @@ header {
     margin: 0 auto;
   }
   .schema_item_head {
-    color: #black;
-    font-size: 26px;
+    color: black;
+    font-size: 18px;
     font-weight: 700;
     text-align: center;
     margin-top: 6px;
   }
   .schema_item_descr {
-    color: #black;
+    color: black;
     font-family: Roboto;
     font-size: 20px;
     font-weight: 300;
@@ -873,7 +873,18 @@ header {
     cursor: pointer;
     outline: 0;
   }
-  .mdc-tab-bar {
-    min-height: 500px;
-  }
+
+.promo_delivery {
+  background-color: #f3f3f3;
+}  
+
+.schema_item_descr > ul > li {
+  list-style-type: none;
+  font-size: 18px;
+}
+
+.schema_item_descr > ul {
+  padding-left: 0;
+  margin-top: 0;
+}
   
