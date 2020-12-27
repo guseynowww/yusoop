@@ -68,7 +68,7 @@ header {
     transition: 0.5s all;
   }
   .promo {
-    min-height: 680px;
+    min-height: 1000px;
     background: url(../img/china/air.jpg);
   }
   .promo_global {
@@ -94,29 +94,7 @@ header {
     text-transform: uppercase;
     margin: 0;
     margin-top: 9px;
-  }
-  .promo_line {
-    display: flex;
-    justify-content: flex-start;
-    align-items: center;
-    margin-top: 38px;
-  }
-  .promo_line_left {
-    width: 484px;
-    margin-left: 180px;
-  }
-  .promo_line_right {
-    width: 463px;
-    margin-right: 180px;
-  }
-  .promo_dot {
-    height: 10px;
-    width: 10px;
-    background-color: #bbb;
-    border-radius: 50%;
-    display: block;
-    margin: 0 auto;
-  }
+}
   .promo_delivery_content {
     display: flex;
     flex-direction: row;
@@ -130,13 +108,13 @@ header {
     height: 110px;
   }
   .promo_delivery_content_img {
-    width: 62px;
-    height: 56px;
+    width: 230px;
+    height: 220px;
     display: block;
     margin: 0 auto;
   }
   .promo_delivery_content_descr {
-    color: #fff;
+    color: #black;
     font-size: 16px;
     font-weight: 300;
     line-height: 22px;
@@ -182,15 +160,15 @@ header {
     margin-top: 13px;
   }
   .advantage_head {
-    color: #ec644b;
+    color: #black;
     font-size: 16px;
     font-weight: 600;
   }
   .advantage_descr {
     margin-top: 5px;
-    color: #3a3a3a;
+    color: #black;
     font-family: Roboto;
-    font-size: 16px;
+    font-size: 20px;
     font-weight: 300;
     line-height: 22px;
   }
@@ -259,7 +237,7 @@ header {
     text-align: center;
   }
   .china {
-    height: 342px;
+    height: 542px;
     background: url(../img/china/Layer_5_copy.png);
   }
   .china_img {
@@ -514,16 +492,16 @@ header {
     margin: 0 auto;
   }
   .schema_item_head {
-    color: #ec644b;
-    font-size: 16px;
+    color: #black;
+    font-size: 26px;
     font-weight: 700;
     text-align: center;
     margin-top: 6px;
   }
   .schema_item_descr {
-    color: #3a3a3a;
+    color: #black;
     font-family: Roboto;
-    font-size: 14px;
+    font-size: 20px;
     font-weight: 300;
     line-height: 20px;
     text-align: center;
@@ -570,14 +548,14 @@ header {
     margin: 0 auto;
   }
   .review_name {
-    font-size: 18px;
+    font-size: 21px;
     font-weight: 700;
     text-align: center;
     margin-top: 13px;
   }
   .review_text {
     color: #3a3a3a;
-    font-size: 16px;
+    font-size: 21px;
     font-weight: 300;
     line-height: 22.01px;
     text-align: center;
